@@ -1,0 +1,12 @@
+.env
+.venv/
+.idea/
+__pycache__/
+*.py[cod]
+*.db
+*.db-*
+*.sqlite*
+logs/
+config/config.yaml
+Архив.zip
+.DS_Store

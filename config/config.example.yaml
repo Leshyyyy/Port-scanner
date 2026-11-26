@@ -1,0 +1,14 @@
+scanner:
+  targets:
+    - "192.0.2.1" # Замените на адрес, который вам разрешено сканировать
+  ports: "22,80,443"
+  rate: 500
+  interface: null
+  wait_time: 20
+
+schedule:
+  minute: "0"
+  hour: "*/6"
+  day: "*"
+  month: "*"
+  weekday: "*"
